@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-sanada-camera",
+  "version": "0.0.1",
+  "description": "Cordova Sanada Camera Plugin",
+  "cordova": {
+    "id": "cordova-plugin-sanada-camera",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hitdev01/cordova-plugin-sanada-camera"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "jshint www && jshint src && jshint tests"
+  },
+  "author": "hitdev01",
+  "license": "MIT",
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": "^6.4.0"
+      }
+    }
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  }
+}
