@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hitdev01.cordova.plugin.sanada.CameraFragment" >
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/shoot_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写真撮影"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="戻る"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <com.hitdev01.cordova.plugin.sanada.SanadaImageView
+            android:id="@+id/sanada_view"
+            android:src="@drawable/sanada_yukimura"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/shoot_button"
+            android:layout_toRightOf="@id/shoot_button" />
+
+</RelativeLayout>
