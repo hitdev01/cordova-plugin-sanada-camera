@@ -1,5 +1,4 @@
-# cordova-plugin-sample
-cordova plugin sample.
+# cordova-plugin-sanada-camera
 A camera that can be shot with Yukimura Sanada.
 
 ## Installation
